@@ -4,7 +4,7 @@ import { NativeScriptRouterModule } from '@nativescript/angular'
 
 import { SearchComponent } from './search.component'
 
-const routes: Routes = [{ path: 'default', component: SearchComponent }]
+const routes: Routes = [{ path: '', component: SearchComponent }]
 
 @NgModule({
   imports: [NativeScriptRouterModule.forChild(routes)],

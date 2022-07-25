@@ -13,7 +13,11 @@
     "@angular/platform-browser-dynamic": "~14.0.0",
     "@angular/router": "~14.0.0",
     "@nativescript/angular": "^14.0.0",
+    "@nativescript/camera": "^5.0.13",
     "@nativescript/core": "~8.2.0",
+    "@nativescript/firebase-auth": "^2.1.0",
+    "@nativescript/firebase-core": "^2.1.0",
+    "@nativescript/firebase-firestore": "^2.1.0",
     "@nativescript/theme": "~3.0.2",
     "rxjs": "~7.5.0",
     "zone.js": "~0.11.5"
@@ -21,6 +25,7 @@
   "devDependencies": {
     "@angular-devkit/build-angular": "~14.0.0",
     "@angular/compiler-cli": "~14.0.0",
+    "@nativescript/android": "8.2.4",
     "@nativescript/types": "~8.2.0",
     "@nativescript/webpack": "~5.0.6",
     "@ngtools/webpack": "~14.0.0",
