@@ -1,17 +1,21 @@
 <TabView androidTabsPosition="bottom">
-    <GridLayout *tabItem="{ title: 'Home' }">
+    <GridLayout *tabItem="{ title: 'Home', iconSource: 'res://home32' }">
       <page-router-outlet name="homeTab"></page-router-outlet>
     </GridLayout>
 
-    <GridLayout *tabItem="{ title: 'Browse' }">
+    <GridLayout *tabItem="{ title: 'Browse', iconSource: 'res://news32'  }">
       <page-router-outlet name="browseTab"></page-router-outlet>
     </GridLayout>
 
-    <GridLayout *tabItem="{ title: 'Search' }">
+    <GridLayout *tabItem="{ title: 'Search', iconSource: 'res://search32' }">
       <page-router-outlet name="searchTab"></page-router-outlet>
     </GridLayout>
 
-    <GridLayout *tabItem="{ title: 'Profile' }">
+    <GridLayout *tabItem="{ title: 'Appointments', iconSource: 'res://calendar32' }">
+      
+    </GridLayout>
+
+    <GridLayout *tabItem="{ title: 'Profile', iconSource: 'res://profile32'  }">
         <page-router-outlet name="profileTab"></page-router-outlet>
       </GridLayout>
   </TabView>
